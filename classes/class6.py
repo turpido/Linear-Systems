@@ -1,8 +1,8 @@
 import io
 import numpy as np
-import AudioHandler as ah
-from Math import Math
-from RW import FileHandler
+import lib.AudioHandler as ah
+from lib.Math import Math
+from lib.RW import FileHandler
 
 # Instantiate helpers
 audio_handler = ah.AudioHandler()
