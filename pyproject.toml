@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Linear-Systems"
+version = "0.1.0"
+description = "Project for linear systems modules."
+# **Keep the 'packages' key removed from here!**
+
+[tool.setuptools]
+# 1. Do not include 'packages = ["find"]' directly here.
+# 2. Use the dedicated 'packages.find' table below:
+
+[tool.setuptools.packages.find]
+# This tells Setuptools: "Yes, I want you to search for packages automatically."
+where = ["."]  # Look in the current directory
+include = ["*"] # Include everything found (e.g., 'classes', 'lib')

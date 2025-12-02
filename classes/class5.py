@@ -1,4 +1,4 @@
-import AudioHandler as ah
+import lib.AudioHandler as ah
 import numpy as np
 audio = ah.AudioHandler()
 x = audio.record(5)
